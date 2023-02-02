@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "nombre": "laptop",
+      "precio": 23,
+      "descripcion": "portatil nuevo",
+      "categoriaId": 1
+    },
+    {
+      "id": 2,
+      "nombre": "monitor",
+      "precio": 233,
+      "descripcion": "monitor nuevo",
+      "categoriaId": 1
+    },
+    {
+      "id": 4,
+      "nombre": "laptop",
+      "precio": 23,
+      "descripcion": "portatil nuevo",
+      "categoriaId": 1
+    },
+    {
+      "id": 5,
+      "nombre": "laptop",
+      "precio": 23,
+      "descripcion": "portatil nuevo",
+      "categoriaId": 1
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "ordenadores",
+      "descripcion": "portatiles"
+    },
+    {
+      "id": 1,
+      "nombre": "componentes",
+      "descripcion": "perifericos"
+    }
+  ]
+}

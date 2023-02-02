@@ -1,0 +1,16 @@
+npm init -y
+npm i json-server
+creamos db.json con los datos
+en package.json:
+"server":"json-server --watch db.json"
+npm run server
+peticiones en el navegador
+http://localhost:3000/products/1
+http://localhost:3000/categorias/2/products
+http://localhost:3000/products?_limit=2
+http://localhost:3000/products?_page=2&_limit=2
+http://localhost:3000/products?_sort=nombre
+advanced rest client tambien
+post con application/json y en raw y metemos producto a la ruta http://localhost:3000/products
+patch a http://localhost:3000/products/5 con solo el nuevo nombre 
+delete a http://localhost:3000/products/5
